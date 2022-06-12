@@ -3,7 +3,7 @@
 [![Build Status](https://travis-ci.com/ganlvtech/lua-simple-encrypt.svg?branch=master)](https://travis-ci.com/ganlvtech/lua-simple-encrypt)
 
 Official repo >> https://github.com/ganlvtech/lua-simple-encrypt
-This is just a FiveM fix!!!
+This is just a FiveM fix that i found!!!
 
 Just input ur FiveM Lua script, click "Pack & Download" and Boom!
 
