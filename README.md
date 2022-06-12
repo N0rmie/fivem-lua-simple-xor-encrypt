@@ -5,7 +5,7 @@
 Official repo >> https://github.com/ganlvtech/lua-simple-encrypt
 This is just a FiveM fix!!!
 
-Just input ur FiveM Lua5.4 script, click "Pack & Download" and Boom!
+Just input ur FiveM Lua script, click "Pack & Download" and Boom!
 
 ## Usage
 
