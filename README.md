@@ -11,7 +11,7 @@ Just input ur FiveM Lua5.4 script, click "Pack & Download" and Boom!
 
 Open the web page with browser. Select the file and press the button. The encrypted file will be downloaded.
 
-[Try it Online](https://N0rmie.github.io/fivem-lua-simple-encrypt/)
+[Try it Online](https://N0rmie.github.io/public/index.html/)
 ## LICENSE
 
     The MIT License (MIT)
