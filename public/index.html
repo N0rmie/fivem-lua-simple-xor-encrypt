@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lua 5.4 XOR Encryption For FiveM</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+</head>
+<body>
+    <section class="hero is-dark is-medium">
+        <div class="hero-body">
+            <div class="container">
+                <div class="columns">
+                    <div class="column is-two-thirds-tablet is-three-quarter-desktop">
+                        <h1 class="title">Lua 5.4 XOR Encryption For FiveM</h1>
+                        <p>Lua 5.4 XOR Encryption For FiveM - Modified version of https://github.com/ganlvtech/lua-simple-encrypt</p>
+                    </div>
+                    <div class="column is-three-quarters-mobile is-one-thirds-tablet is-one-quarter-desktop">
+                        <img src="images/bsbl.png" alt="xor">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="container">
+            <div class="columns">
+                <div class="column is-two-thirds-tablet is-half-desktop">
+                    <div class="form">
+                        <div class="field">
+                            <label class="label">Select .lua File</label>
+                            <div class="control">
+                                <div class="file has-name">
+                                    <label class="file-label">
+                                        <input class="file-input" type="file" accept=".lua,.txt" id="file">
+                                        <span class="file-cta"><span class="file-icon"><i class="fas fa-upload"></i></span><span class="file-label">Select File…</span></span>
+                                        <span class="file-name" id="file-name">No file selected...</span>
+                                    </label>
+                                </div>
+                            </div>
+                            <p class="help">Your file will be processed locally and won´t be uploaded to any server or logged.</p>
+                        </div>
+
+                        <div class="field">
+                            <label class="checkbox">
+                                Save as bytecode
+                                <input type="checkbox" id="bytecode">
+                                <p class="help">This will make the file larger (like 3x larger) and harder to deobfuscate.</p>
+                            </label>
+                        </div>
+                        <div class="field">
+                            <label class="label">ByteCode Settings</label>
+                            <div class="control">
+                                <div class="select">
+                                    <select id="settings">
+                                        <option value="number">Numbers (Makes it really large "x")</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <p class="help">Please select from the bytecode settings. Only 1 on this version, soon more!</p>
+                        </div>
+
+                        <div class="field">
+                            <div class="control">
+                                <button class="button is-link is-medium" id="encrypt"><span class="file-icon"><i class="fas fa-download"></i></span>Pack & Download</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="bundle.js"></script>
+</body>
+</html>
