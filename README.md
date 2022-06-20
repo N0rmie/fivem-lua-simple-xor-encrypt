@@ -11,6 +11,9 @@ Just input ur FiveM Lua script, click "Pack & Download" and Boom!
 
 Open the web page with browser. Select the file and press the button. The encrypted file will be downloaded.
 
+
+Need a FiveM Anti Cheat? >> [discord.gg/3kKxdY3nAW](https://discord.gg/3kKxdY3nAW)
+
 [Try it Online](https://n0rmie.github.io/fivem-lua-simple-xor-encrypt/public/index.html)
 ## LICENSE
 
